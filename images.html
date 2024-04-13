@@ -14,7 +14,25 @@
 </head>
 
 <body>
+    <img src="https://images.pexels.com/photos/20726113/pexels-photo-20726113/free-photo-of-a-view-of-the-city-of-siena-italy.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        width="400px" alt="no image">
+    <img src="./do1wnload.jpeg" width="400px" alt="no image">
+    <picture>
+        <source media="(min-width: 200px)" srcset="./downloaad.jpeg" />
+    </picture>
 
+    <!-- Image Map Generator -->
+    <img src="download.jpeg" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="one()" target="" alt="" title="" href="" coords="55,16,226,135" shape="rect">
+    </map>
+
+    <script>
+        function one() {
+            alert("You clicked on one");
+        }
+    </script>
 </body>
 
 </html>
